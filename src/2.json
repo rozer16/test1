@@ -1,0 +1,43 @@
+{
+  "OTCInformation.ProductLevel": "InstRefDataReporting",
+  "OTCInformation.ValuationMethodTrigger": "VANILLA",
+  "OTCInformation.NotionalCurrencyCode": "EUR",
+  "OTCInformation.NotionalSchedule": "CONSTANT",
+  "OTCInformation.ReturnPayoutTrigger": "OTHER",
+  "OTCInformation.OtherNotionalCurrencyCode": "USD",
+  "IssueClassification.ANNAProductDefinitionName": "Basis",
+  "Product.SecurityTypeLevel1": "INTEREST-RATE-SWAP",
+  "Product.SecurityTypeLevel2": "OTHER-CR-SWAP",
+  "Product.MarketSectorDescription": "SWAP",
+  "ContractInformation.ContractSize": 1,
+  "ContractInformation.ISDAContractSpecificationCode": "StandardWesternEuropeanSovereign",
+  "ContractInformation.ExerciseType": "E",
+  "ContractInformation.ExpirationDate": {
+    "$date": "2025-11-30T00:00:00.000Z"
+  },
+  "UnderlyingInformation": [
+    {
+      "UnderlyingType": "REFR",
+      "UnderlyingSecurityId": "AED-EBOR-Reuters",
+      "UnderlyingTermUnit": "DAYS",
+      "UnderlyingTermValue": 1,
+      "UnderlyingIssuerType": "SOVEREIGN"
+    },
+    {
+      "UnderlyingType": "OREF",
+      "UnderlyingSecurityId": "AED-EBOR-Reuters_1DAYS",
+      "UnderlyingTermUnit": "DAYS",
+      "UnderlyingTermValue": 1
+    }
+  ],
+  "UnderlyingXref": [
+    {
+      "UnderlyingXrefCode": "ISN",
+      "UnderlyingXrefValue": "US4592001014"
+    }
+  ],
+  "Settlement.DeliveryMethod": "PHYS",
+  "EffectiveDate": "2019-11-30",
+  "MifidReporting.ESMASeniority": "SNDB" ,
+  "ExchangeListingInfo.SettlementCurrency": "EUR"
+}
