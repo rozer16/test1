@@ -1,0 +1,62 @@
+{
+  "code": 200,
+  "results": [
+    {
+      "_id": "1375778511",
+      "IssueClassification": {
+        "ANNAProductDefinitionName": "Basis"
+      },
+      "Settlement": {
+        "DeliveryMethod": "PHYS"
+      },
+      "ProductSMCP": [
+        {
+          "SMCP": "1158775731",
+          "SMCPStatus": true
+        }
+      ],
+      "UnderlyingInformation": [
+        {
+          "ISOUnderlying": "BBSW",
+          "UnderlyingSecurityId": "AUD-BBSW_3MNTH",
+          "UnderlyingTermUnit": "MNTH",
+          "UnderlyingType": "REFR",
+          "UnderlyingTermValue": 3
+        },
+        {
+          "ISOUnderlying": "BBSW",
+          "UnderlyingSecurityId": "AUD-BBSW_6MNTH",
+          "UnderlyingTermUnit": "MNTH",
+          "UnderlyingType": "OREF",
+          "UnderlyingTermValue": 6
+        }
+      ],
+      "Xref": {
+        "ISN": "EZRHQN79MQY3",
+        "UPI": "QZ62Z00G7WK4"
+      },
+      "Product": {
+        "Description": "RATES SWAP BASIS 5 YEAR AUD-BBSW 3 MNTH AUD-BBSW 6 MNTH 20431102",
+        "ShortDescription": "NA/SWAP FLT FLT AUD 20431102",
+        "CFICode": "SRACSP",
+        "MarketSectorDescription": "SWAP",
+        "SecurityTypeLevel2": "IR-BASIS-SWAP",
+        "OperationalIndicator": true,
+        "SecurityTypeLevel1": "INTEREST-RATE-SWAP"
+      },
+      "OTCInformation": {
+        "NotionalCurrencyCode": "AUD",
+        "NotionalSchedule": "CONSTANT",
+        "ContractCurrencyIndicator": "S",
+        "TermValueOfContract": 5,
+        "ProductLevel": "InstRefDataReporting",
+        "TermUnitOfContract": "YEAR"
+      },
+      "ContractInformation": {
+        "ContractSize": 1.0,
+        "ExpirationDate": "2043-11-02T00:00:00.000+00:00",
+        "IsCommodityDerivative": false
+      }
+    }
+  ]
+}
